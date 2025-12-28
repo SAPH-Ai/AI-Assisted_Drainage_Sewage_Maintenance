@@ -4,7 +4,6 @@
 ![Platform](https://img.shields.io/badge/Platform-Arduino%20%7C%20Python-blue)
 ![License](https://img.shields.io/badge/License-MIT-orange)
 
-> **Team Subterranean Sanitizers** > *Revolutionizing urban sanitation with Artificial Intelligence and Robotics.*
 
 ## 📋 Table of Contents
 - [About the Project](#-about-the-project)
@@ -23,7 +22,7 @@
 
 Urban areas in developing countries often face severe waterlogging and health hazards due to clogged drainage systems. Manual cleaning is dangerous, exposing workers to toxic gases like Methane ($CH_4$) and hazardous waste.
 
-**The SAPHAI Project** utilizes AI and robotics to autonomously detect blockages, identify toxic gases, and clean drainage systems without risking human lives. Our system consists of two specialized robots driven by Computer Vision (YOLOv8) and microcontroller logic.
+**The SAPHAI Project** utilizes AI and robotics to autonomously detect blockages, identify toxic gases, and clean drainage systems without risking human lives. Our system consists of two specialized robots driven by Computer Vision and microcontroller logic.
 
 ---
 
@@ -48,7 +47,7 @@ Urban areas in developing countries often face severe waterlogging and health ha
 
 ## ✨ Key Features
 
-* **👁️ AI Vision:** Uses YOLOv8 & OpenCV to identify specific trash types (Plastic bottles, medical waste, organic debris).
+* **👁️ AI Vision:** Uses OpenCV to identify specific trash types (Plastic bottles, medical waste, organic debris).
 * **⚠️ Hazard Mitigation:** Automatic pump activation when explosive gas levels exceed 50%.
 * **🦠 Sanitization:** Integrated UV lights and chemical sprays to disinfect contaminated zones.
 * **🌚 Dark Navigation:** LDR-controlled floodlights for operating in pitch-black sewers.
@@ -59,7 +58,7 @@ Urban areas in developing countries often face severe waterlogging and health ha
 ## 🛠 Tech Stack
 
 ### Software
-* **Brain:** Python (YOLOv8, OpenCV, TensorFlow)
+* **Brain:** Python (OpenCV, TensorFlow)
 * **Body:** C++ (Arduino IDE)
 * **Communication:** Serial / Bluetooth (HC-05)
 
