@@ -121,4 +121,3 @@ Urban areas in developing countries often face severe waterlogging and health ha
 
 ---
 
-*Project developed for the National Science Fest 2024.*
